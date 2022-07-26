@@ -1,0 +1,6 @@
+#!/bin/bash
+NVIM_DIR=~/.config/nvim-install
+export NVIM_DIR
+
+alias nv="XDG_DATA_HOME=$NVIM_DIR/share XDG_CONFIG_HOME=$NVIM_DIR nvim"
+export nv
