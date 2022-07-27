@@ -54,14 +54,15 @@ local function plugins()
     end,
   }
 
+
   -- Git
-  -- use {
-  --     "TimUntersberger/neogit",
-  --     requires = "nvim-lua/plenary.nvim",
-  --     config = function()
-  --         require("config.neogit").setup()
-  --     end,
-  -- }
+  use {
+      "TimUntersberger/neogit",
+      requires = "nvim-lua/plenary.nvim",
+      config = function()
+        require("config.neogit").setup()
+      end,
+  }
 
   -- Smart-completion
   use {
