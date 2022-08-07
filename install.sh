@@ -35,3 +35,5 @@ mkdir -p $NVIM_DIR/share
 mkdir -p $NVIM_DIR/nvim
 
 stow --restow --target=$NVIM_DIR/nvim nvim/
+cd $HOME
+ln -s $CURR_DIR/dot-bash_aliases .bash_aliases
