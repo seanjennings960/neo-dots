@@ -6,9 +6,9 @@ function M.setup ()
   local autocmd = vim.api.nvim_create_autocmd
 
   -- Opening new projects.
-  km_set('n', '<C-n>p', '<Cmd>tabdo NERDTreeVCS<Cr>',
+  km_set('n', '<C-f>p', '<Cmd>tabdo NERDTreeVCS<Cr>',
          {desc='Focus on Nerd tree window in current tab'})
-  km_set('n', '<C-n>o',
+  km_set('n', '<C-f>o',
          '<Cmd>tabdo NERDTreeMirror | NERDTreeFocus<Cr>')
 
   local function nt_selected ()
@@ -24,7 +24,7 @@ function M.setup ()
   end
 
 
-  km_set('n', '<C-n>f', toggle_focus,
+  km_set('n', '<C-f>f', toggle_focus,
          {desc='Focus on Nerd tree window in current tab'})
 
   -- Close NERD Tree in all tabs.
@@ -34,7 +34,7 @@ function M.setup ()
     vim.cmd('tabnext ' .. curr_tab)
   end
 
-  km_set('n', '<C-n>q', exit_tabs,
+  km_set('n', '<C-f>q', exit_tabs,
          {desc='Close all nerd tree windows'})
 
   -- Open NERD Tree in new tabs.
