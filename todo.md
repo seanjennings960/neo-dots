@@ -36,3 +36,6 @@
 	- Less memory consumption (not that we're particularly
 	  memory limited, but lightweight is a good philosophy.
 * But yes, let's get back to some other shit before too long here...
+
+# Neogit bugs
+* Buffer handle does not change when window number does.
