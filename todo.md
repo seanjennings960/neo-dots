@@ -23,7 +23,6 @@
 	- Restore tabs from previous session??
 	- Is swapfiles what we want here?
 		* no that's more for recovery
-* automatically source activate / cleanup install
 * Eventually a Docker install would be dope
 * Markdown / Latex editor on the side?
 
