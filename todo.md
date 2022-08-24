@@ -25,6 +25,7 @@
 		* no that's more for recovery
 * Eventually a Docker install would be dope
 * Markdown / Latex editor on the side?
+* Configure / Understand exactly what is happening with CoC.
 
 
 
@@ -35,6 +36,9 @@
 	- Less memory consumption (not that we're particularly
 	  memory limited, but lightweight is a good philosophy.
 * But yes, let's get back to some other shit before too long here...
+* From the LogRocket Rust configuration article:
+	- We like to use lean, mean tools tailored exactly to our needs.
+	- https://blog.logrocket.com/configuring-vim-rust-development/
 
 # Neogit bugs
 * Buffer handle does not change when window number does.
