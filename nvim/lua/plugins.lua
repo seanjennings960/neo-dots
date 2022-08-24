@@ -69,6 +69,11 @@ local function plugins()
     "neoclide/coc.nvim",
     branch = "release"
   }
+
+  -- Javascript syntax highlighting
+  use {
+    "pangloss/vim-javascript"
+  }
         
 
 end
